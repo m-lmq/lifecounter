@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -16,13 +18,18 @@ class ViewController: UIViewController {
         status.isHidden = true
     }
     
+    
     @IBOutlet var p1LifeCount: UILabel!
     @IBOutlet var p2LifeCount: UILabel!
+    @IBOutlet var p1Input: UITextField!
+    @IBOutlet var p2Input: UITextField!
     @IBOutlet var status: UILabel!
 
+    
     var p1Life = 20
     var p2Life = 20
     
+   
     // Player 1 Actions
     @IBAction func p1Inc1(_ sender: UIButton) {
         p1Life += 1
@@ -36,16 +43,20 @@ class ViewController: UIViewController {
         checkForLoser()
     }
 
-    @IBAction func p1Inc5(_ sender: UIButton) {
-        p1Life += 5
-        updateLifeTotals()
-        checkForLoser()
+    @IBAction func p1Inc(_ sender: UIButton) {
+        if let amount = Int(p1Input.text ?? "0") {
+            p1Life += amount
+            updateLifeTotals()
+            checkForLoser()
+        }
     }
 
-    @IBAction func p1Dec5(_ sender: UIButton) {
-        p1Life -= 5
-        updateLifeTotals()
-        checkForLoser()
+    @IBAction func p1Dec(_ sender: UIButton) {
+        if let amount = Int(p1Input.text ?? "0") {
+            p1Life -= amount
+            updateLifeTotals()
+            checkForLoser()
+        }
     }
 
     // Player 2 Actions
@@ -61,16 +72,20 @@ class ViewController: UIViewController {
         checkForLoser()
     }
 
-    @IBAction func p2Inc5(_ sender: UIButton) {
-        p2Life += 5
-        updateLifeTotals()
-        checkForLoser()
+    @IBAction func p2Inc(_ sender: UIButton) {
+        if let amount = Int(p2Input.text ?? "0") {
+            p2Life += amount
+            updateLifeTotals()
+            checkForLoser()
+        }
     }
 
-    @IBAction func p2Dec5(_ sender: UIButton) {
-        p2Life -= 5
-        updateLifeTotals()
-        checkForLoser()
+    @IBAction func p2Dec(_ sender: UIButton) {
+        if let amount = Int(p2Input.text ?? "0") {
+            p2Life -= amount
+            updateLifeTotals()
+            checkForLoser()
+        }
     }
     
     func updateLifeTotals() {
@@ -91,4 +106,3 @@ class ViewController: UIViewController {
     }
 
 }
-
