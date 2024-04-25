@@ -16,6 +16,9 @@
 		5544A4F32BD0CA3600660BDA /* LifeCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544A4F22BD0CA3600660BDA /* LifeCounterTests.swift */; };
 		5544A4FD2BD0CA3600660BDA /* LifeCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544A4FC2BD0CA3600660BDA /* LifeCounterUITests.swift */; };
 		5544A4FF2BD0CA3600660BDA /* LifeCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5544A4FE2BD0CA3600660BDA /* LifeCounterUITestsLaunchTests.swift */; };
+		9DC0DB8C2BD90B9700FA893D /* LiftCounterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0DB8B2BD90B9700FA893D /* LiftCounterTableViewCell.swift */; };
+		9DC0DB8E2BD92B3800FA893D /* historyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0DB8D2BD92B3800FA893D /* historyTableViewCell.swift */; };
+		9DC0DB902BD92B6200FA893D /* historyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0DB8F2BD92B6200FA893D /* historyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5544A4F82BD0CA3600660BDA /* LifeCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5544A4FC2BD0CA3600660BDA /* LifeCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCounterUITests.swift; sourceTree = "<group>"; };
 		5544A4FE2BD0CA3600660BDA /* LifeCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DC0DB8B2BD90B9700FA893D /* LiftCounterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftCounterTableViewCell.swift; sourceTree = "<group>"; };
+		9DC0DB8D2BD92B3800FA893D /* historyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyTableViewCell.swift; sourceTree = "<group>"; };
+		9DC0DB8F2BD92B6200FA893D /* historyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 			children = (
 				5544A4DB2BD0CA3500660BDA /* AppDelegate.swift */,
 				5544A4DD2BD0CA3500660BDA /* SceneDelegate.swift */,
+				9DC0DB8D2BD92B3800FA893D /* historyTableViewCell.swift */,
+				9DC0DB8F2BD92B6200FA893D /* historyViewController.swift */,
+				9DC0DB8B2BD90B9700FA893D /* LiftCounterTableViewCell.swift */,
 				5544A4DF2BD0CA3500660BDA /* ViewController.swift */,
 				5544A4E12BD0CA3500660BDA /* Main.storyboard */,
 				5544A4E42BD0CA3600660BDA /* Assets.xcassets */,
@@ -261,6 +270,9 @@
 				5544A4E02BD0CA3500660BDA /* ViewController.swift in Sources */,
 				5544A4DC2BD0CA3500660BDA /* AppDelegate.swift in Sources */,
 				5544A4DE2BD0CA3500660BDA /* SceneDelegate.swift in Sources */,
+				9DC0DB8C2BD90B9700FA893D /* LiftCounterTableViewCell.swift in Sources */,
+				9DC0DB8E2BD92B3800FA893D /* historyTableViewCell.swift in Sources */,
+				9DC0DB902BD92B6200FA893D /* historyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
