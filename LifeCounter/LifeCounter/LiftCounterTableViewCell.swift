@@ -38,9 +38,9 @@ class LiftCounterTableViewCell: UITableViewCell {
             guard let textField = alertController.textFields?.first, let playerName = textField.text else { return }
            
             if(playerName == ""){
-                self.playerName.text = "NA"
+                self.playerName.text = "N/A"
                 if let indexPath = getParentTableView()?.indexPath(for: self) {
-                    ViewController.playerName[indexPath.row] = "NA"
+                    ViewController.playerName[indexPath.row] = "N/A"
                 }
             } else {
                 self.playerName.text = playerName
