@@ -1,4 +1,4 @@
-//
+//  
 //  SceneDelegate.swift
 //  LifeCounter
 //
@@ -49,4 +49,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-

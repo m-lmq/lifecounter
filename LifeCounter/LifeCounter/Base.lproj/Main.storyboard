@@ -244,7 +244,7 @@
                                 </connections>
                             </barButtonItem>
                             <barButtonItem id="nDk-1c-RJJ">
-                                <imageReference key="image" image="arrow.clockwise.circle.fill" catalog="system" symbolScale="large"/>
+                                <imageReference key="image" image="arrow.clockwise.square.fill" catalog="system" symbolScale="large"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <action selector="resetGame:" destination="WqL-O7-syD" id="zVN-Lr-14G"/>
@@ -388,7 +388,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.clockwise.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="arrow.clockwise.square.fill" catalog="system" width="128" height="114"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="list.bullet.clipboard" catalog="system" width="98" height="128"/>
         <image name="minus.square.fill" catalog="system" width="128" height="114"/>

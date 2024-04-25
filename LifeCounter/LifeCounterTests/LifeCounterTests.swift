@@ -1,4 +1,4 @@
-//
+//  
 //  LifeCounterTests.swift
 //  LifeCounterTests
 //
